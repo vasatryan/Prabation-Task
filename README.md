@@ -30,8 +30,8 @@ gcc task.c -o password_generator_c
 To compile and run the C++ version of the password generator, use the following commands:
 
 ```bash
-g++ task.c -o password_generator_c
-./password_generator_c
+g++ task.c -o password_generator_c++
+./password_generator_c++
 ```
 
 ### Python Implementation
