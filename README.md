@@ -12,7 +12,7 @@ This is a simple password generator and comparison tool implemented in C, C++, a
 ## Usage
 
 ```bash
-git clone https://github.com/vasatryan/Prabation-Task.git
+git clone https://github.com/vasatryan/Probation-Task.git
 cd Probation-Task
 ```
 
