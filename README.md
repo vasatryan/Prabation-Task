@@ -13,7 +13,7 @@ This is a simple password generator and comparison tool implemented in C, C++, a
 
 ```bash
 git clone https://github.com/vasatryan/Probation-Task.git
-cd Probation-Task
+cd Probation-Task/task
 ```
 
 ### C Implementation
