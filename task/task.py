@@ -9,10 +9,15 @@ def generatePassword():
     Number = string.digits
     Symbol = "!@#$%^&*()_-+=[]{}|;:,.<>?`"
     AllSymbol = UpperCase + LowerCase + Number + Symbol 
-
+    
+# Ensure at least one character from each category in the first four characters
     password = random.choice(UpperCase) + random.choice(LowerCase)
     password += random.choice(Symbol) + random.choice(Number)
-    password += "".join(random.choice(AllSymbol) for _ in range(length-4))
+    
+# Fill the rest of the password
+    password += "".join(random.choice(AllSymbol) for _ in range(length-4)) 
+    
+ # Mix password 
     password = "".join(random.choice(password) for _ in range(length)) # Mix password 
 
     return password # return generated password
